@@ -1,0 +1,25 @@
+* {
+    --darkblue: linear-gradient(90deg,rgba(170, 223, 230, 0.842),rgba(92, 167, 202, 0.87),rgba(105, 162, 216, 0.979),rgba(88, 158, 204, 0.842),rgba(192, 234, 241, 0.877)); 
+}
+/* HTML element tag */
+main {
+    margin: 0px 10px;
+    padding-top: 10px;
+}
+/* Costume class below this line */
+.main-nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    background-image: var(--darkblue);
+}
+.vav-item {
+    color: white;
+}
+.background {
+    color: rgb(6, 60, 141);
+    background: url(img/blue-cloud.jpg);
+    height: 1000px;
+}
+/* costume ID below this line */
