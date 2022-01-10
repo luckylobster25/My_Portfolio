@@ -22,4 +22,36 @@ main {
     background: url(img/blue-cloud.jpg);
     height: 1000px;
 }
+.big-bold {
+    font-size: 100px;
+    font-weight: bolder;
+}
+.center-self {
+    text-align: center;
+}
+.welcome {
+    color: azure;
+    animation-name: welcomeElement;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+.current-time {
+    color: azure;
+    font-size: 25px;
+    animation-name: current;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
 /* costume ID below this line */
+
+/* keyframe */
+@keyframes welcomeElement{
+    0% {left: 0px; right: 0px; top: 0px; bottom: 0px; font-size: 200px; opacity: 30%;}
+    90% {left: 0px; right: 0px; top: 0px; bottom: 0px; font-size: 100px; opacity: 70%;}
+    100% {left: 0px; right: 0px; top: 0px; bottom: 0px; font-size: 100px; opacity: 100%;}
+}
+@keyframes current{
+    0% {left: 0px; right: 0px; top: 0px; bottom: 0px; font-size: 30px; opacity: 0%;}
+    90% {left: 0px; right: 0px; top: 0px; bottom: 0px; font-size: 30px; opacity: 0%;}
+    100% {left: 0px; right: 0px; top: 0px; bottom: 0px; font-size: 25px; opacity: 100%;}
+}
