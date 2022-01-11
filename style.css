@@ -3,7 +3,7 @@
 }
 /* HTML element tag */
 main {
-    margin: 0px 10px;
+    margin: 0px 0px;
     padding-top: 10px;
 }
 /* Costume class below this line */
@@ -20,7 +20,7 @@ main {
 .background {
     color: rgb(6, 60, 141);
     background: url(img/blue-cloud.jpg);
-    height: 1000px;
+    height: 900px;
 }
 .big-bold {
     font-size: 100px;
@@ -41,6 +41,62 @@ main {
     animation-name: current;
     animation-duration: 4s;
     animation-iteration-count: 1;
+}
+.connect-background {
+    background-image: linear-gradient(90deg, rgb(94, 175, 207), lightblue,rgb(31, 177, 235),lightblue,rgb(148, 207, 235));
+    height: 900px;
+}
+.box-shadow {
+    box-shadow: rgb(32, 156, 179) 15px 15px 10px;
+}
+.container-box {
+    display: inline-flex;
+    margin-top: 2.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-evenly;
+}
+.box-body {
+    display: flexbox;
+    color: azure;
+    border: lightblue 2px solid;
+    margin: 20px 20px;
+    width: fit-content;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+.linkedin-header {
+    color: rgb(28, 31, 31);
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+.linkedin-in {
+    color: white;
+    background: rgb(0, 153, 255);
+    padding: 0px 5px;
+    border-radius: 10%;
+    font-size: 60px;
+}
+.linkedin-link {
+    margin: 5px 0px;
+    padding: 5px 0px;
+    color: rgb(28, 31, 31);
+    font-size: 22px;
+}
+.github-logo {
+    width: 100px;
+}
+.github-header {
+    background: rgb(34, 40, 58);
+}
+.github-link {
+    margin: 5px 0px;
+    padding: 5px 0px;
+    color: rgb(28, 31, 31);
+    font-size: 25px;
+}
+.email {
+    
 }
 /* costume ID below this line */
 
