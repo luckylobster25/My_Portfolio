@@ -6,6 +6,9 @@ main {
     margin: 0px 0px;
     padding-top: 10px;
 }
+p {
+    text-align: center;
+}
 /* Costume class below this line */
 .main-nav {
     padding-left: 10px;
@@ -95,8 +98,19 @@ main {
     color: rgb(28, 31, 31);
     font-size: 25px;
 }
-.email {
-    
+.card {
+    width: 50%;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+.feature-projects {
+    font-size: larger;
+    background: lightblue;
+}
+.show {
+    display: none;
 }
 /* costume ID below this line */
 
