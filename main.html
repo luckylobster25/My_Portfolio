@@ -33,20 +33,23 @@
         <header class="big-bold center-self welcome">Welcome!</header>
         <main>
             <p id="current-date-time" class="center-self current-time"></p>
-            <div class="card" style="width: 18rem;">
+            <div id="current-input" class="input-group">
+                <input id="user-input" type="text" class="form-control" placeholder="Enter in a city" aria-label="Recipient's username with two button addons">
+                <button id="submit-btn" class="btn btn-outline-secondary current-btn" type="button">Submit</button>
+                <button id="clear-btn" class="btn btn-outline-secondary current-btn" type="button">Clear</button>
+              </div>
+            <div id="temp-card" class="card show" style="width: 18rem;">
                 <img src="" id="icon" class="card-img-top" alt="">
                 <div class="card-body">
-                  <h4 id="location" class="card-title">Card title</h4>
-                  <p id="description" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h4 id="location" class="card-title">City name</h4>
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">An item</li>
-                  <li class="list-group-item">A second item</li>
-                  <li id="timezone" class="list-group-item">A third item</li>
+                  <li id="temperature" class="list-group-item">temperature</li>
+                  <li id="weather-description" class="list-group-item">description</li>
+                  <li id="timezone" class="list-group-item">time zone</li>
                 </ul>
                 <div class="card-body">
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  <a href="https://luckylobster25.github.io/weather/" class="card-link">Go to application</a>
                 </div>
               </div>
         </main>
