@@ -113,6 +113,9 @@ p {
     display: none;
 }
 /* costume ID below this line */
+#current-date-time {
+    margin-bottom: 2%;
+}
 
 /* keyframe */
 @keyframes welcomeElement{
