@@ -66,3 +66,8 @@ submitBtnEl.addEventListener("click",function() {
     getWeather(userInput);
     }
 })
+const clearBtnEl = document.getElementById('clear-btn')
+clearBtnEl.addEventListener('click', function(){
+    document.getElementById('temp-card').style.display = 'none'
+    document.getElementById('user-input').value = ''
+})

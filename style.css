@@ -23,7 +23,7 @@ p {
 .background {
     color: rgb(6, 60, 141);
     background: url(img/blue-cloud.jpg);
-    height: 900px;
+    height: 1000px;
 }
 .big-bold {
     font-size: 100px;
@@ -127,6 +127,14 @@ p {
     border-color: #4ebbdd;
     width: 15%;
 }
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #60dcf58c;
+    border-color: #0cb3d5c7;
+}
+.current-list-blue {
+    background-color: #e4f7ff;
+}
 /* costume ID below this line */
 #current-date-time {
     margin-bottom: 3%;
@@ -139,6 +147,8 @@ p {
 #temp-card {
     width: 16rem;
     margin-top: 2%;
+    opacity: 100%;
+    background-color: #eff9fd;
 }
 /* keyframe */
 @keyframes welcomeElement{
