@@ -22,5 +22,7 @@ Inside the project page, user can click on different link. The link will direct 
 ![connectwithme](img/connectwithme.png)
 Here is the display of "connect with me" page. There are buttons to direct user to different website. Email button will open up user's email application which allow user to email the creator. 
 ## About me page 
-![aboutme](img\aboutme.png)
+![aboutme](img/aboutme.png)
 This page is mainly about creator. The page allows user to download resume if they choose to do so. 
+
+### Feel free to message me if there is any questions. 
