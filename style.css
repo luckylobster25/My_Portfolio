@@ -37,6 +37,8 @@ p {
     animation-name: welcomeElement;
     animation-duration: 5s;
     animation-iteration-count: 1;
+    width: auto;
+    
 }
 .current-time {
     color: azure;
@@ -171,3 +173,18 @@ p {
     100% {left: 0px; right: 0px; top: 0px; bottom: 0px; opacity: 100%;}
 }
 /* application depend strongly on bootstrap. Uses script as second main to overwrite some content. */
+@media screen and (max-width : 600px)  {
+    .welcome {
+        color: azure;
+        animation-name: welcomeElement1;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        width: auto;
+        font-size: 60px;
+    }
+    @keyframes welcomeElement1{
+        0% {left: 0px; right: 0px; top: 0px; bottom: 0px; font-size: 100px; opacity: 30%;}
+        90% {left: 0px; right: 0px; top: 0px; bottom: 0px; font-size: 60px; opacity: 70%;}
+        100% {left: 0px; right: 0px; top: 0px; bottom: 0px; font-size: 60px; opacity: 100%;}
+    }
+}
