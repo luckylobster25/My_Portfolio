@@ -1,0 +1,49 @@
+.background-aboutme {
+    background-image: url(https://coolwallpapers.me/picsup/2994956-nature-plants-flowers-macro-depth-of-field-leaves-bokeh-water-drops-dew-blue-flowers___mixed-wallpapers.jpg);
+    height: 1100px;
+    
+}
+.profile-pic {
+    border-radius: 25%;
+}
+.box-aboutme {
+    width: 30%;
+    min-width: 18rem;
+    background-color: #1b1729d4;
+    box-shadow: 15px 15px 20px 2px #08d7da3d;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    color: rgb(162, 169, 226);
+}
+.banner {
+    width: 100%;
+}
+.mycity {
+    width: 60%;
+    background-color: #1b1729d4;
+    color: rgb(162, 169, 226);
+    box-shadow: 15px 15px 20px 2px #08d7da3d;
+    font-size: larger;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-bottom: 1.5%;
+    text-align: left;
+}
+p {
+    font-size: 15px;
+}
+.aboutme-text {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.hobbies {
+    float: left;
+    width: 56%;
+    margin-left: 2%;
+    background-color: #1b1729d4;
+    color: rgb(162, 169, 226);
+    box-shadow: 15px 15px 20px 2px #08d7da3d;
+}
