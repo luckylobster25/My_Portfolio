@@ -2,7 +2,7 @@
 ## Overview of project: 
 
 This is a portfolio web application of creator. User can interact on webpage with limited imput. Application is mainly created with the purpose of showcasing creator's project and ability use programming languages. 
-* Deployment Link: [https://luckylobster25.github.io/My_Portfolio/](https://luckylobster25.github.io/My_Portfolio/)
+* Deployment Link: [https://luckylobster25.github.io/My_Portfolio/main](https://luckylobster25.github.io/My_Portfolio/main)
 * Tool  used in application: [https://getbootstrap.com/docs/5.1/getting-started/introduction/](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 * Api: [https://openweathermap.org/api](https://openweathermap.org/api)
 *********
