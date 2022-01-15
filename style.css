@@ -135,6 +135,10 @@ p {
 .current-list-blue {
     background-color: #e4f7ff;
 }
+.background-project {
+    background-image: url(https://wallpaper.dog/large/20372204.jpg);
+    height: fit-content;
+}
 /* costume ID below this line */
 #current-date-time {
     margin-bottom: 3%;
