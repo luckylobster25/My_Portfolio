@@ -1,11 +1,13 @@
 .background-aboutme {
     background-image: url(https://coolwallpapers.me/picsup/2994956-nature-plants-flowers-macro-depth-of-field-leaves-bokeh-water-drops-dew-blue-flowers___mixed-wallpapers.jpg);
     height: 1100px;
-    
+    /* background image for aboutme file */
 }
+/* picture */
 .profile-pic {
     border-radius: 25%;
 }
+/* box 1 of page */
 .box-aboutme {
     width: 30%;
     min-width: 18rem;
@@ -20,6 +22,7 @@
 .banner {
     width: 100%;
 }
+/* box 2 of page */
 .mycity {
     width: 60%;
     background-color: #1b1729d4;
@@ -39,6 +42,7 @@ p {
     padding-left: 2%;
     padding-right: 2%;
 }
+/* box 3 of page */
 .hobbies {
     float: left;
     width: 56%;

@@ -5,6 +5,7 @@ setInterval(function () {
 }, 0)
 
 var getWeather = function (city) {
+    // api from openweather
     const weatherApiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=addb76e535c4e5e7659ab5807b934e3b`;
     fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=addb76e535c4e5e7659ab5807b934e3b`)
         .then(function (response) {
@@ -14,7 +15,7 @@ var getWeather = function (city) {
                 var cityName = data[0].name
                 var stateName = data[0].state
                 console.log(data);
-                // var location = `${cityName}, ${stateName}`
+                // code to display name of city and state in project html file
                 var location = function (nameOfCity, nameOfState) {
                     let city = nameOfCity;
                     let state = nameOfState;
@@ -25,11 +26,8 @@ var getWeather = function (city) {
                         var success = city + ", " + state
                         return success
                     }
-                    // console.log(city,state);
-                    // return `${cityName}, ${stateName}`
                 }
                 document.getElementById("location").textContent = location(cityName, stateName)
-                // console.log(location);
                 return fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude=hourly,minutely&units=imperial&appid=addb76e535c4e5e7659ab5807b934e3b`)
                     .then(function (response) {
                         return response.json().then(function (data) {
@@ -40,6 +38,7 @@ var getWeather = function (city) {
                                 feels: data.current.feels_like,
                                 timezone: data.timezone
                             }
+                            // displaying on weather card in html file
                             document.getElementById('temperature').textContent = "Temperature: " + currentWeather.temp + "°"
                             document.getElementById('icon').setAttribute("src", `http://openweathermap.org/img/wn/${currentWeather.icon}@2x.png`)
                             document.getElementById("weather-description").textContent = "Feels like: " + currentWeather.feels + "°"
@@ -56,6 +55,7 @@ var getWeather = function (city) {
               });
         })
 }
+// submit button used in project html file
 var submitBtnEl = document.getElementById('submit-btn')
 submitBtnEl.addEventListener("click",function() {
     let userInput = document.getElementById('user-input').value
@@ -66,6 +66,7 @@ submitBtnEl.addEventListener("click",function() {
     getWeather(userInput);
     }
 })
+// clear button used in project html file
 const clearBtnEl = document.getElementById('clear-btn')
 clearBtnEl.addEventListener('click', function(){
     document.getElementById('temp-card').style.display = 'none'

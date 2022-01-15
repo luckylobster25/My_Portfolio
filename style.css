@@ -170,3 +170,4 @@ p {
     50% {left: 0px; right: 0px; top: 0px; bottom: 0px; opacity: 50%;}
     100% {left: 0px; right: 0px; top: 0px; bottom: 0px; opacity: 100%;}
 }
+/* application depend strongly on bootstrap. Uses script as second main to overwrite some content. */

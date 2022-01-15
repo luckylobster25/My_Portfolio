@@ -1,9 +1,11 @@
+/* background of connect file */
 .background-img {
     background-image: url(https://motionarray-portfolio.imgix.net/preview-90490-85a71cb06fc0583bd0976d8a58e16596-high.jpg);
     height: fit-content;
     display: inline-block;
     width: 100%;
 }
+/* display of button used */
 .connect-btn {
     width: fit-content;
     margin-left: auto;
